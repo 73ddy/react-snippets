@@ -2,7 +2,7 @@
 This snippet is a an example of React HOC.
 Here we are trying to encapsulate the common functionality in HOC.
 The requirement was that we want our data fetching to be done at cwm in both the component. The fetching functions were different.
-As both the component had similar requirement, we contained the logic in HOC ppRefs. To ppRefs we passed the wrapped component and the  fetcher function. Note that we have kept that rendering logic in the wrapped components as the return type of fetcher functions were different.
+As both the component had similar requirement, we contained the logic in HOC ppRefs. To ppRefs we passed the wrapped component and the fetcher function. Note that we have kept that rendering logic in the wrapped components as the return type of fetcher functions were different.
 Read - https://reactjs.org/docs/higher-order-components.html [example inspiration for this snippet]
 For more details - https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
 
